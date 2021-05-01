@@ -1,13 +1,4 @@
-/**
-* Template Name: OnePage - v4.1.0
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -439,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box {
-  padding: 50px 30px;
+  padding: 50px 10px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -1885,3 +1876,433 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.seo-icon	{
+  color: #18C485;
+    height:65px;
+    margin-top: 20px;
+      margin-bottom:20px
+      }
+      
+      .hero-section-light {
+        background-color: #f2f5f8;
+      }
+    
+    
+      .quote-box {
+        background-image: linear-gradient(to top, #dfe9f3 0%, white 100%) !important;
+        -webkit-box-shadow: 4px 4px 2px 0 rgba(0, 0, 0, .1);
+        -moz-box-shadow: 4px 4px 2px 0 rgba(0, 0, 0, .1);
+        box-shadow: 4px 4px 2px 0 rgba(0, 0, 0, .1);
+      }
+      
+      .outline {
+        background: 0 0;
+        border: 1px solid #ddd;
+      }
+      
+      .quote-box:hover {
+        -webkit-transform: translateY(-.5em);
+        bt transform: translateY(-.5em);
+        box-shadow: 0 10px 50px -5px rgba(0, 0, 0, .15);
+        transition: .25s ease-in-out;
+      }
+  
+      .quote-box p {
+        font-size: 16px;
+        color: #333;
+        font-weight: bold;
+      }
+      
+      .quote-box a:focus,
+      .quote-box a:hover {
+        color: #23527c;
+        text-decoration: none;
+      }
+      
+      .quote-box img {
+        max-width: 50%;
+        margin: 30px auto;
+        height: 60px;
+      }
+      
+      .btm-border {
+        border-bottom: 8px solid #18C485;
+      }
+      
+      #thank-you-pages.btn-ghost:hover,
+      a#thank-you-pages.btn-ghost:hover {
+        background: #18C485;
+        border-color: #18C485;
+        color: #FFF;
+      }
+      
+      .green {
+        color: #18C485!important
+      }
+      
+  
+      .btm-border {
+        border-bottom: 8px solid #18C485;
+      }
+      
+      .border-inset {
+        outline: 5px solid white;
+        outline-offset: -15px;
+        background-size: cover;
+      }
+      
+      .border-inset a:hover {
+        opacity: .8;
+        text-decoration: none;
+      }
+      
+      .white {
+        color: #fff !important;
+      }
+      
+      @media (min-width: 1440px) {
+        .hero-section h1,
+        .hero-section-light h1 {
+          font-size: 44px;
+          font-weight: 800;
+          text-shadow: none;
+          margin-bottom: 60px;
+        }
+      }
+      
+      .call-out-box {
+        position: absolute;
+        padding: 20px 0;
+        right: 29%;
+        bottom: -100px;
+        background: #fff;
+        font-weight: 700;
+        font-family: inherit;
+        line-height: 110%;
+        color: #0e94d2;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        width: 40%;
+      }
+      
+      .overlay {
+        background: rgb(0, 0, 0, 0.3);
+        background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.89) 2%, rgba(0, 0, 0, 0.7) 46%, rgba(0, 0, 0, 1) 81%);
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.8) 2%, rgba(0, 0, 0, 0.7) 46%, rgba(0, 0, 0, 1) 81%);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.87) 2%, rgba(0, 0, 0, 0.7) 46%, rgba(0, 0, 0, 0.8) 81%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000', endColorstr='#000', GradientType=1);
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+      }
+      
+  
+  .overlay2 {
+      background: rgb(4, 124, 186, 0.3);
+      background: -moz-linear-gradient(left, rgba(4, 124, 186, 0.89) 2%, rgba(62, 127, 183, 0.7) 46%, rgba(39, 187, 213, 1) 81%);
+      background: -webkit-linear-gradient(left, rgba(4, 124, 186, 0.8) 2%, rgba(62, 127, 183, 0.7) 46%, rgba(39, 187, 213, 1) 81%);
+      background: linear-gradient(to right, rgba(4, 124, 186, 0.87) 2%, rgba(62, 127, 183, 0.7) 46%, rgba(39, 187, 213, 0.8) 81%);
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#047cba', endColorstr='#27bbd5', GradientType=1);
+      border-top: 1px solid #E5E5E5;
+      border-bottom: 1px solid #E5E5E5;
+  }
+  
+      #hero-youget .align,
+      {
+        width: 100%;
+        height: 100%;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        align-items: center;
+      }
+      
+  #you-get {
+      background-image: url(../../../images/hero-longform2.jpg);
+      background-position: 20% 29%;
+  }
+      
+      .hero-section-light hr {
+        border-top-color: #fff;
+        margin-bottom: 40px !important;
+      }
+      
+      #hero-form {
+        min-height: 400px;
+      }
+      
+      #hero-form .mktoForm .mktoRequiredField label.mktoLabel {
+        font-weight: bold;
+        display: none;
+        visibility: hidden;
+      }
+      
+      #hero-form .mktoForm .mktoLabel {
+        font-weight: bold;
+        display: none;
+        visibility: hidden;
+      }
+      
+      .mktoinput {
+        width: 100% !important
+      }
+      
+      .mktoForm .mktoLabel {
+        float: left;
+        line-height: 1.2em;
+        padding-top: 0.3em;
+        display: none;
+      }
+      
+      .right {
+        right: 15px;
+        bottom: 0;
+      }
+      
+      .mktoButtonRow {
+        float: none !important;
+        display: block !important;
+      }
+  
+  
+      .btn-primary, a.btn-primary {
+      background: #18C485;
+      border-color: #18C485;
+      color: #FFF;
+  }
+        .outer-box {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: relative;
+        margin: 20px 0;
+      }
+      
+      .outer-box img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .outer-box .inner-box {
+        background: #000;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        position: absolute;
+        padding: 0;
+        transition: opacity .7s;
+      }
+      /* line 25, ../sass/style.scss */
+      
+      .outer-box .inner-box p {
+        color: #fff;
+        line-height: 150px;
+        font-family: 'arial';
+        text-align: center;
+      }
+      /* line 34, ../sass/style.scss */
+      
+      .outer-box:hover .inner-box {
+        opacity: .9;
+        transition: opacity .5s;
+      }
+      
+      .portfolio-image {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        border: 1px solid #ddd;
+        padding: 4px;
+        background: #fff;
+      }	
+        
+        .overlay-icon {
+              margin-top: 25% !important;
+        }
+        
+          
+      .callout h3 {
+        font-size: 16px;
+        font-weight: 800;
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: 180%;
+      }
+      
+      .callout {
+        margin: 30px 0 15px;
+        padding: 0 30px;
+      }
+      
+      .callout hr {
+        border-top: 5px solid #18C485;
+        border-radius: 5px;
+      }
+      
+  .callout-box {
+      box-shadow: 0px 30px 90px rgba(0, 0, 0, 0.14)!important;
+      border-radius: 5px;
+      padding: 30px;
+      background: #fff;
+  }
+  
+  .same-height1 {
+      min-height: 465px;
+  }
+      .callout p {
+        font-size: 14px;
+      }
+      
+      .stronger {
+        font-weight: 900;
+        line-height: 150%;
+      }
+      
+      .outer-box {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: relative;
+        margin: 20px 0;
+      }
+      
+      .outer-box img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .outer-box .inner-box {
+        background: #000;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        position: absolute;
+        padding: 0;
+        transition: opacity .7s;
+      }
+      /* line 25, ../sass/style.scss */
+      
+      .outer-box .inner-box p {
+        color: #fff;
+        line-height: 150px;
+        font-family: 'arial';
+        text-align: center;
+      }
+      /* line 34, ../sass/style.scss */
+      
+      .outer-box:hover .inner-box {
+        opacity: .9;
+        transition: opacity .5s;
+      }
+      
+  .white {
+      color: #fff!important;
+  }
+  
+  p {
+      line-height: 160%;
+  }
+  
+  #hero-design {
+      background-image: url(../img/hero.jpg);
+      background-position-y: -20%;
+  
+  }
+      .callout h3 {
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'Nunito Sans', sans-serif;
+        line-height: 180%;
+              transition: all 0.3s ease;
+  
+      }
+  
+  .callout h3:hover{
+      color: #047cba;
+        transition: all 0.3s ease;
+    text-decoration: none!important;
+  
+  }
+  
+  #cpa-website-design .btn-ghost, #cpa-website-design a.btn-ghost {
+      color: #18C485;
+      border-color: #18C485;
+      background-color: #18C485;
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .text-center {
+    text-align: center;
+ 
+  }
+  
+  .btn-ghost:hover, a.btn-ghost:hover {
+      background: #df9310!important;
+      border-color: #df9310!important;
+      color: #FFF;
+  }
+  
+  @media (min-width: 768px){
+  .halfcut>.container-fluid {
+      padding-top: 0 !important;
+  }
+  }
+  
+  .feature-num {
+      display: block;
+      font-size: 37px;
+      color: #18C485;
+      /* margin-top: 10px; */
+      border: 3px solid #18C485;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -o-border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      margin: 0 auto;
+      FONT-WEIGHT: 800;
+      font-family: 'Nunito Sans', sans-serif;
+  }
+  
+   .dice{
+      display: inline;
+      height: 20px;
+      padding: 0 0;
+      margin: 0 10px 0 0;
+  }
+  
+  #btm-nav {
+    display: none;
+    visibility: hidden;
+  }
+  
+  @media (min-width: 1200px){
+  .hero-section-light {
+      padding: 0;
+  }
+  }
+  
+  @media (min-width: 992px)
+  .hero-section p, .hero-section-light p {
+      font-size: 18px;
+  }
+  }
+  
+    .black {
+        color: #000 !important;
+      }
