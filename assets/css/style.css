@@ -1561,7 +1561,7 @@ section {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i ,.contact .info .whatsapp:hover i{
   background: #2487ce;
   color: #fff;
 }
@@ -1901,12 +1901,7 @@ section {
         border: 1px solid #ddd;
       }
       
-      .quote-box:hover {
-        -webkit-transform: translateY(-.5em);
-        bt transform: translateY(-.5em);
-        box-shadow: 0 10px 50px -5px rgba(0, 0, 0, .15);
-        transition: .25s ease-in-out;
-      }
+
   
       .quote-box p {
         font-size: 16px;
@@ -2008,18 +2003,7 @@ section {
       border-bottom: 1px solid #E5E5E5;
   }
   
-      #hero-youget .align,
-      {
-        width: 100%;
-        height: 100%;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        align-items: center;
-      }
+
       
   #you-get {
       background-image: url(../../../images/hero-longform2.jpg);
@@ -2296,13 +2280,9 @@ section {
       padding: 0;
   }
   }
-  
-  @media (min-width: 992px)
-  .hero-section p, .hero-section-light p {
-      font-size: 18px;
-  }
-  }
-  
-    .black {
-        color: #000 !important;
-      }
+
+
+    
+
+
+
