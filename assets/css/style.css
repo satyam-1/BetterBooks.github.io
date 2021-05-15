@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/1.jpg") top center;
+  background: url("../img/newh.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -438,6 +438,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .container {
+  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  background: #fff;
+  margin-top: 50px;
+}
 .about .content {
   font-size: 15px;
 }
@@ -1825,3 +1830,97 @@ section {
 
 /* new testomonial */
 
+.service {
+  padding-bottom: 20px;
+}
+
+.service .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0  0 40px 0;
+  background: #fff;
+  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.service .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 17px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+.service .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.service .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.service .title a {
+  color: #111;
+}
+
+.service .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.service .icon-box-pink .icon {
+  background: #fceef3;
+}
+
+.service .icon-box-pink .icon i {
+  color: #ff689b;
+}
+
+.service .icon-box-pink:hover {
+  border-color: #ff689b;
+}
+
+.service .icon-box-cyan .icon {
+  background: #e6fdfc;
+}
+
+.service .icon-box-cyan .icon i {
+  color: #3fcdc7;
+}
+
+.service .icon-box-cyan:hover {
+  border-color: #3fcdc7;
+}
+
+.service .icon-box-green .icon {
+  background: #eafde7;
+}
+
+.service .icon-box-green .icon i {
+  color: #41cf2e;
+}
+
+.service .icon-box-green:hover {
+  border-color: #41cf2e;
+}
+
+.service .icon-box-blue .icon {
+  background: #e1eeff;
+}
+
+.service .icon-box-blue .icon i {
+  color: #2282ff;
+}
+
+.service .icon-box-blue:hover {
+  border-color: #2282ff;
+}
